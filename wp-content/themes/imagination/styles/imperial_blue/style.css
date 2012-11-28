@@ -1,0 +1,150 @@
+body{
+background:url(bg.jpg) top center no-repeat fixed;
+color:#FFF;
+}
+#header a, #welcome a:hover{
+color:#FFF !important;
+}
+#header a:hover, #welcome a{
+color:#e9c300 !important;
+}
+.toprsscolor{
+color:#FFFFFF !important;
+}
+.colororange{
+color:#f09218 !important;
+}
+#topsearch{
+	background:url(topsearch.png) right no-repeat;
+	width:280px;
+	height:30px;
+	text-align:right;
+	padding:0 0px 0 0;
+	margin:0 5px 0 0;
+}
+#tops{
+	padding:7px 35px 0 0;
+	width:198px;
+	background:none;
+	border:0px;
+	color:#FFF;
+	font:italic 9pt Arial, Helvetica, sans-serif;
+	
+}
+
+
+#content{
+color:#FFFFFF;
+}
+a{
+color:#2fa5dc;
+}
+a:hover{
+color:#f09218;
+}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6{
+color:#2fa5dc !important;
+}
+
+#content h1 a, #content h2 a, #content h3 a, #content h4 a, #content h5 a, #content h6 a{
+color:#2fa5dc !important;
+}
+#content h1 a:hover, #content h2 a:hover, #content h3 a:hover, #content h4 a:hover, #content h5 a:hover, #content h6 a:hover{
+color:#f09218 !important;
+}
+.sticky {
+	background:#000000 url(featured.png) right top no-repeat !important;
+	color:#FFFFFF;
+}
+.postmetadata{
+	background:#000000;
+	padding:5px 10px 5px 10px;
+	color:#FFFFFF;
+}
+
+.widget ul li a,#wp-calendar a:hover{
+color:#2fa5dc;
+}
+.widget ul li a:hover,#wp-calendar a{
+color:#FFFFFF;
+}
+#toptwitter h2 a{
+color:#2fa5dc !important;
+}
+.toptwittermsg ul li a{
+color:#2fa5dc !important;
+}
+#toptwitter h2 a:hover{
+color:#41d8f8 !important;
+}
+.curved{ /* Panel Color */
+padding:10px;
+background:url(tbg.png);
+border-color:#FFFFFF;
+}
+
+ol.commentlist li{
+	background:#000000;
+	color:#FFFFFF;
+}
+ol.commentlist li.comment-author-admin{
+	background:#171717;
+	color:#FFFFFF;
+}
+#author{
+background:#000000 ;
+color:#cccccc;
+}
+#email{
+background:#000000 ;
+color:#cccccc;
+}
+#url{
+background:#000000 ;
+color:#cccccc;
+}
+#comment{
+background:#000000 ;
+color:#cccccc;
+}
+ol.commentlist li a{
+color:#2fa5dc;
+}
+ol.commentlist li a:hover{
+color:#bfd95e;
+}
+#footer{
+	color:#FFF;
+}
+.widget{
+	color:#FFF;
+}
+.widget_text a{
+	color:#2fa5dc;
+}
+.widget h2{
+	color:#FFF;
+}
+#submit{
+background:#000;
+color:#CCC;
+}
+#footer{
+color:#FFF;
+}
+#wp-calendar a{
+	font-weight:bold;
+	background:#2a2a2a;
+	color:#FFF;
+	padding:3px 5px 3px 5px;
+}
+#wp-calendar a:hover{
+	font-weight:bold;
+	background:#FFF;
+	color:#2a2a2a;
+	padding:3px 5px 3px 5px;
+}
+td#prev a, td#next a{
+	background:none !important;
+	color:#FFF;
+}

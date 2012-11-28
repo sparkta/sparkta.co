@@ -1,0 +1,145 @@
+body{
+background:url(bg.jpg) fixed;
+color:#2a2a2a;
+}
+#header a, #welcome a:hover{
+color:#664711 !important;
+}
+#header a:hover, #welcome a{
+color:#000000 !important;
+}
+.toprsscolor{
+color:#000000 !important;
+}
+.colororange{
+color:#664711 !important;
+}
+#topsearch{
+	background:url(topsearch.png) right no-repeat;
+	width:280px;
+	height:30px;
+	text-align:right;
+	padding:0 0px 0 0;
+	margin:0 5px 0 0;
+}
+#tops{
+	padding:7px 35px 0 0;
+	width:198px;
+	background:none;
+	border:0px;
+	color:#000000;
+	font:italic 9pt Arial, Helvetica, sans-serif;
+}
+
+#content{
+color:#2a2a2a;
+}
+a{
+color:#664711;
+}
+a:hover{
+color:#000000;
+}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6{
+color:#664711 !important;
+}
+
+#content h1 a, #content h2 a, #content h3 a, #content h4 a, #content h5 a, #content h6 a{
+color:#664711 !important;
+}
+#content h1 a:hover, #content h2 a:hover, #content h3 a:hover, #content h4 a:hover, #content h5 a:hover, #content h6 a:hover{
+color:#000000 !important;
+}
+.sticky {
+	background:#FFFFFF url(featured.png) right top no-repeat !important;
+	color:#000000;
+}
+.postmetadata{
+	background:#e2dfd6;
+	padding:5px 10px 5px 10px;
+	color:#000000;
+}
+.widget{
+	color:#2a2a2a;
+}
+.widget h2{
+	color:#664711;
+}
+.widget ul li a, #wp-calendar a:hover{
+color:#000000;
+}
+.widget ul li a:hover,#wp-calendar a{
+color:#664711;
+}
+#toptwitter h2 a{
+color:#000000 !important;
+}
+.toptwittermsg ul li a{
+color:#664711 !important;
+}
+#toptwitter h2 a:hover{
+color:#000000 !important;
+}
+.curved{ /* Panel Color */
+padding:10px;
+background:url(tbg.png);
+}
+ol.commentlist li{
+	background:#f4f4f4;
+	color:#2a2a2a;
+}
+ol.commentlist li.comment-author-admin{
+	background:#e2dfd6;
+	color:#2a2a2a;
+}
+ol.commentlist li a{
+color:#664711;
+}
+ol.commentlist li a:hover{
+color:#000000;
+}
+
+#author{
+background:#E2DFD6;
+color:#1a1a1a;
+}
+#email{
+background:#E2DFD6;
+color:#1a1a1a;
+}
+#url{
+background:#E2DFD6;
+color:#1a1a1a;
+}
+#comment{
+background:#E2DFD6;
+color:#1a1a1a;
+}
+#submit{
+	clear:both;
+background:#E2DFD6;
+color:#1a1a1a;
+	padding:5px 8px 5px 8px;
+	margin:0 0 5px 0;
+	border:0px solid #000;
+}
+#wp-calendar a{
+	font-weight:bold;
+	background:#ccc;
+	color:#2a2a2a;
+	padding:3px 5px 3px 5px;
+}
+#wp-calendar a:hover{
+	font-weight:bold;
+	background:#2a2a2a;
+	color:#FFF;
+	padding:3px 5px 3px 5px;
+}
+td#prev a, td#next a{
+	background:none !important;
+	color:#2a2a2a;
+}
+td#prev a:hover, td#next a:hover{
+	background:none !important;
+	color:#000000;
+}

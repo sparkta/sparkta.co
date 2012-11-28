@@ -1,0 +1,58 @@
+/*
+Theme Name: Imagination
+Theme URI: http://www.cssjockey.com
+Description: Imagination - Fully Customizable WordPress Theme. A gift from <a href="http://www.cssjockey.com">CSSJockey.com</a> to all WordPress users. <br />Make sure you share this theme with your loved ones. <a href="http://www.cssjockey.com">Check for Updates</a>
+Version: 1.0
+Author: CSSJockey
+Author URI: http://http://www.cssjockey.com/
+*/
+/*
+Copyright (c) 2009, CSSJockey! All rights reserved - http://www.cssjockey.com
+Version: 2.3.1
+*/
+body {
+	background:#000 url(images/bg.jpg) center no-repeat fixed;
+	font:normal 9pt Arial, Geneva, Helvetica, sans-serif;
+	color:#e1e1e1;
+	line-height:1.6;
+}
+a{
+	color:#ff9600;
+}
+a:hover{
+	color:#FFFFFF;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+
+}
+#header{
+	height:80px;
+	color:#FFF;
+}
+#contentcontainer{
+	clear:both;
+	width:1000px;
+	padding:25px 0 0 0;
+}
+#content{
+	width:665px;
+	margin:0px 26px 0px 0;
+}
+#sidebar{
+	width:280px;
+	margin:0px;
+	padding:0px;
+}
+#footer{
+	clear:both;
+	width:970px;
+	padding:10px;
+}
+/* Structure */
+
+/* Global Colors */
+.colororange{
+	color:#ff9600;
+}

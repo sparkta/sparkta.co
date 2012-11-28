@@ -1,0 +1,134 @@
+body{
+background:#FFFFFF url(bg.jpg) top center no-repeat fixed;
+color:#FFFFFF;
+}
+#content{
+color:#1a1a1a;
+}
+a{
+color:#045c7a;
+}
+a:hover{
+color:#000000;
+}
+#header a, #welcome a:hover{
+color:#FFFFFF !important;
+}
+#header a:hover, #welcome a{
+color:#045570  !important;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6{
+color:#045570  !important;
+}
+
+#content h1 a, #content h2 a, #content h3 a, #content h4 a, #content h5 a, #content h6 a{
+color:#045570  !important;
+}
+#content h1 a:hover, #content h2 a:hover, #content h3 a:hover, #content h4 a:hover, #content h5 a:hover, #content h6 a:hover{
+color:#000000  !important;
+}
+#toptwitter h2 a{
+color:#FFFFFF !important;
+}
+.toptwittermsg ul li a{
+color:#202020 !important;
+}
+.toprsscolor{
+color:#FFFFFF  !important;
+}
+.colororange{
+color:#045570  !important;
+}
+#toptwitter h2 a:hover{
+color:#045570  !important;
+}
+.curved{
+padding:10px;
+background:#FFFFFF;
+border-color:#000;
+}
+.sticky {
+	background:#FFFFFF url(featured.png) right top no-repeat !important;
+	color:#045570}
+.postmetadata{
+	background:#d6eaf1;
+	padding:5px 10px 5px 10px;
+	color:#045c7a;
+}
+ol.commentlist li{
+	background:#badce8;
+	color:#2a2a2a;
+}
+ol.commentlist li.comment-author-admin{
+	background:#64b0ca;
+	color:#2a2a2a;
+}
+#author{
+background:#64b0ca;
+color:#2a2a2a;
+}
+#email{
+background:#64b0ca;
+color:#2a2a2a;
+}
+#url{
+background:#64b0ca;
+color:#2a2a2a;
+}
+#comment{
+background:#64b0ca;
+color:#2a2a2a;
+}
+.widget{
+	background:#FFF !important;
+}
+.widget_text a{
+color:#045c7a;
+}
+.widget_text a:hover{
+color:#000000;
+}
+.widget{
+color:#1a1a1a;
+}
+.widget ul li a,#wp-calendar a:hover{
+color:#045c7a;
+}
+.widget ul li a:hover,#wp-calendar a{
+color:#000000;
+}
+ol.commentlist li a{
+color:#095974;
+}
+ol.commentlist li a:hover{
+color:#000000;
+}
+#submit{
+background:#64b0ca;
+color:#2a2a2a;
+}
+#wp-calendar a{
+	font-weight:bold;
+	background:#efefef;
+	color:#64b0ca;
+	padding:3px 5px 3px 5px;
+}
+#wp-calendar a:hover{
+	font-weight:bold;
+	background:#64b0ca;
+	color:#FFF;
+	padding:3px 5px 3px 5px;
+}
+td#prev a, td#next a{
+	background:none !important;
+	color:#64b0ca;
+}
+td#prev a:hover, td#next a:hover{
+	background:none !important;
+	color:#64b0ca;
+}
+#footer{
+	background:#D6EAF1;
+	color:#1a1a1a;
+}

@@ -1,0 +1,129 @@
+#cjtable{
+	width:800px;
+	background:#FFF;
+	padding:0px;
+	border:1px solid #ccc;
+	margin:10px 0 0 0;
+}
+.cjheading{
+	margin:0px;
+	padding:5px 0 5px 10px;
+	margin-bottom:0px;
+	font:bold 12pt "Trebuchet MS";
+	background:url(images/heading.gif) right;
+	color:#21759b;
+	cursor:default;
+}
+.tddesc{
+	font:bold 11px verdana;
+	width:200px;
+	padding:10px 5px 5px 10px;
+	border-bottom:1px solid #efefef;
+}
+.tdvalue{
+	border-bottom:1px solid #efefef;
+	padding:5px 0 5px 0;
+}
+.tdbuttons{
+	padding:0 0 0 10px;
+	background:#efefef;
+}
+.tdinfo{
+	margin:0px;
+	padding:5px 0 0 0;
+	font:normal 11px verdana;
+}
+.tdinputbox, .tdinputboxreadonly{
+	font:normal 11px verdana;
+	width:250px;
+	background:none;
+	border:1px solid #ccc;
+	padding:5px;
+}
+.tdinputboxreadonly{
+	background:#CCC;
+	color:#CCC;
+}
+.tdselectbox{
+	font:normal 11px verdana;
+	width:250px;
+	background:none;
+	border:1px solid #ccc;
+	padding:10px;
+}
+.tdselectbox{
+	background:#efefef;
+}
+.tdinputbox:hover{
+	font:normal 11px verdana;
+	width:250px;
+	background:#efefef;
+	border:1px solid #ccc;
+	padding:5px;
+}
+.tdtextarea{
+	font:normal 11px verdana;
+	width:400px;
+	height:100px;
+	background:none;
+	border:1px solid #ccc;
+	padding:5px 0 0 5px;
+	overflow:scroll;
+}
+.cjhidden,.screen{
+	display:none;
+}
+#cjfooter{
+	width:778px; 
+	padding:5px 10px 5px 10px;
+	margin:20px 0 0 0;
+	font:normal 11px verdana;
+	background:#efefef;
+	border:1px solid #ccc;
+}
+#cj_init{
+	background:#990000;
+	color:#FFF;
+	text-align:center;
+	padding:15px 0px 15px 0px;
+	border:3px solid #000;
+	border-bottom:0px solid #000;	
+	font:bold 11pt Arial, Helvetica, sans-serif;
+	bottom:0;
+	position:fixed;
+	width:600px;
+	left:50%;
+	margin-left:-300px;
+}
+#cj_init a{
+	text-decoration:underline;
+	color:#fff;
+}
+.getlicense{
+	padding:0px 0 10px 0;
+}
+.activate{
+	padding:0px 0 0px 0;
+}
+#activatelink{
+	display:none;
+}
+.cjerrormsg{
+	margin:5px 0 0 0;
+	padding:7px;
+	color:#000;
+}
+.cjred{
+	color:#990000;
+	font-weight:bold;
+}
+.alternate{
+	background:#efefef;
+}
+.cj_info{
+	color:#990000;
+	padding:5px 15px 5px 0;
+}
+.subhead{
+	background:#efefef !important;
+}
