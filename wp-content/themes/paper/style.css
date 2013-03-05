@@ -1,0 +1,383 @@
+/*
+Theme Name: Paper
+Theme URI: http://www.wpcharity.com/
+Description: A child theme of Twenty Eleven
+Author: nizamilputra
+Author URI: http://about.me/nizamilputra
+Template: twentyeleven
+Version: 1.0
+*/
+
+
+@import url("../twentyeleven/style.css");
+@import url("fonts/sketchrockwell/font.css"); /*font-family:"SketchRockwellRegular"*/
+@import url("fonts/handsean/font.css");/*font-family:"HandOfSeanRegular"*/
+
+clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+h1{font-size:25px}h2{font-size:23px}h3,.entry-content h3{font-size:21px; text-transform:none; letter-spacing:0;}h4{font-size:19px}h5{font-size:17px}h6{font-size:15px}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+    font-weight: normal;
+    line-height: 2em;
+    margin: 0;
+}
+
+body{
+	background: #FFFFFF url(images/paper.jpg) repeat;
+	font-family: Georgia,"Nimbus Roman No9 L",serif;
+}
+
+#page{
+	background:none;
+	margin-top:0;
+}
+
+#branding {
+	border:none;
+}
+
+#page hgroup{
+	text-align:center;
+}
+
+#site-title {
+	margin:0;
+}
+
+#site-title a{
+	font-family:"SketchRockwellRegular";
+	font-size:65px;
+}
+
+#site-description {
+	margin:0 0 15px 0;
+	font-family: Georgia,"Nimbus Roman No9 L",serif;
+}
+
+#access{
+	background:none;
+	-moz-box-shadow:0 0 0 rgba(0, 0, 0, 0);
+	-webkit-box-shadow:0 0 0 rgba(0, 0, 0, 0);
+	box-shadow:0 0 0 rgba(0, 0, 0, 0);
+	border-bottom:20px solid #333333;
+}
+
+#access a{
+	font-family:"HandOfSeanRegular";
+	color:#000000;
+	font-size:20px;
+	color:#333333;
+}
+
+#access li:hover > a,
+#access a:focus {
+	background:#333333;
+	color:#ebebeb
+}
+
+#access ul ul :hover > a{
+	color:#333333;
+}
+
+#access ul ul{
+	top:4.1em;
+}
+
+input#s{
+	position: relative;
+    top: 30px;;
+	float:right;
+	border:1px solid #aaaaaa;
+}
+
+#content{
+	margin: 0 34% 0 4.6%;;
+}
+
+.hentry, .no-results{
+	border:1px solid #ffc4c5;
+	padding:15px;
+}
+
+.entry-metax, .format-gallery .entry-meta time, .singular .entry-header .entry-meta time{
+	width:50px;
+	height:57px;
+	background:#444444;
+	padding:10px;
+	border:1px solid #ffc4c5;
+	position:absolute;
+	right:96%
+}
+
+.entry-metax span, .format-gallery .entry-meta time span, .singular .entry-header .entry-meta time span{
+	display:block;
+	text-align:center;
+	font-family:"SketchRockwellRegular"
+}
+
+.entry-metax span.tanggal, .format-gallery .entry-meta time span.tanggal, .singular .entry-header .entry-meta time span.tanggal{
+	font-size:34px;
+	line-height:1em;
+}
+
+.entry-metax span.blnthn, .format-gallery .entry-meta time span.blnthn, .singular .entry-header .entry-meta time span.blnthn{
+	font-size:15px;
+}
+
+.entry-metax span, .format-gallery .entry-meta time span, .singular .entry-header .entry-meta time span{
+	color:#ebebeb;
+}
+
+.format-gallery .entry-meta time{
+	top:34px;
+}
+
+.entry-title, .entry-title a{
+	font-family:"HandOfSeanRegular";
+	color:#333333;
+}
+
+.entry-title, .entry-header .entry-meta {
+    padding-left: 30px;
+    padding-right: 55px;
+}
+
+.cat-links{
+	padding-left:30px;
+}
+
+.sticky .cat-links{
+	padding-left:0;
+}
+
+header.entry-header{
+	position:relative;
+}
+
+
+header.entry-header .edit-link a{
+	position:absolute;
+	left: 94%;
+	background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 0 8px;
+    text-decoration: none;
+}
+
+.page .edit-link a{
+	position:relative;
+	top:-9px;
+}
+
+header.entry-header .edit-link a:hover, .entry-meta .tag-links a:hover, .singular footer.entry-meta .edit-link a:hover{
+	background:#333333;
+	color:#ffffff;
+}
+
+.entry-meta .tag-links a, .page-link a{
+	background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height:2em;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+
+.page-link a:hover{
+	background:#333333;
+}
+
+.entry-header .comments-link a{
+	right: -2%;
+	top:0.5em;
+	font-size:15px;
+	line-height:34px;
+}
+
+.entry-header .comments-link a:hover,
+.entry-header .comments-link a:focus,
+.entry-header .comments-link a:active {
+	background-color:rgba(0,0,0,0);
+	color: #1982d1;
+}
+
+.entry-header .comments-link a{
+	background:url(images/comment-bubble.png) no-repeat center;
+	width:42px;
+	height:46px;
+}
+
+footer.entry-meta{
+	position:relative;
+	z-index:9;
+}
+
+footer.entry-meta .comments-link{
+	position:absolute;
+	left:95%;
+	display:block;
+	min-width: 100px;
+}
+
+footer.entry-meta .comments-link a, .entry-header .entry-format{
+	background:#444444;
+	border: 1px solid #FFC4C5;
+	padding:5px;
+	color:#FFFFFF;
+}
+
+.entry-header .entry-format{
+	left:-48px;
+}
+
+.entry-header .comments-link .leave-reply{
+	visibility:visible;
+	font-size:12px;
+	padding-left:4px;
+}
+
+.author{
+	margin-top:15px;
+}
+
+.widget-title{
+	font-family:"HandOfSeanRegular";
+	text-transform:none;
+	font-size:18px;
+	color:#333333;
+}
+
+widget-title a{
+	text-decoration:none;
+	color:#333333;
+}
+
+.widget ul{
+	list-style-image:url(images/round.png);
+}
+
+.widget ul ul{
+	list-style-image:url(images/cek.png);
+}
+
+.singular #primary{
+	float: left;
+    margin: 0 -26.4% 0 20px;
+    width: 98%;
+}
+
+.singular #content{
+	 width: 58.4%;
+	 margin: 0 34% 0 4.6%;
+}
+
+.singular .hentry{
+	border: 1px solid #FFC4C5;
+	padding: 10px 0;
+}
+
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {
+	width:92%
+}
+
+.singular .entry-title{
+	padding-top:0;
+}
+
+blockquote{background: url(images/quote.png) top left no-repeat;   padding: 10px 10px 1px 60px; margin:0 1em;}
+
+#nav-single .nav-previous, #nav-single .nav-next{
+	position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+.singular footer.entry-meta{
+	position:relative;
+}
+
+.singular footer.entry-meta .edit-link a{
+	left: 100%;
+    position: absolute;
+    top: 7%;
+}
+
+.commentlist > li:before {
+	content: '';
+	left: -21px;
+	position: absolute;
+}
+
+.commentlist > li.comment, #respond {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #FFC4C5;
+}
+
+a.comment-reply-link{
+	background:#333333;
+	color:#ffffff;
+}
+
+#reply-title {
+	font-family:"HandOfSeanRegular"
+}
+
+.page.singular #page #primary{
+	margin: 0;
+    width: 100%;
+}
+
+.page.singular #page #content{
+	margin: 0 auto;
+    width: 85.4%;
+}
+
+.page.singular #page footer.entry-meta .edit-link a{
+	left: 98%;
+    position: absolute;
+    top: -25px;
+}
+
+article.intro, .featured-posts, .page-template-showcase-php section.recent-posts article{
+	 border: 1px solid #FFC4C5;
+}
+
+#supplementary {
+    padding: 1.625em 4%;
+}
+
+#secondary {
+    margin-right: 0;
+    width: 25.8%
+	}
+	
+.singular.page .hentry {
+    padding: 2.5em 0 0;
+}
+
+.footer-fix{background: #333333;border-top: 1px solid #DDDDDD; overflow:auto;padding: 2.2em 0.5em;}
+#site-info {float: left; width:75%; text-transform:uppercase; margin-left:20px}
+#site-info a{font-family:"HandOfSeanRegular"; text-decoration:none; color:#ebebeb}
+#site-info a:hover{color:#008BCC}
+#site-generator{float:left; border:none;padding:0; background:none; width: 22%;}
+#site-generator a {
+    background: url("images/wordpress.png") no-repeat scroll left center transparent;
+    color: #ebebeb;
+    display: inline-block;
+    line-height: 16px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#site-generator a:hover{background: url("images/wordpress.png") no-repeat scroll left center transparent; color:#0088CC}
+#site-generator a.wpcharity{background: url("images/wpcharity.png") no-repeat left center;}
+
+.singular #author-info{
+	margin: 20px 0;
+	padding: 15px;
+}
