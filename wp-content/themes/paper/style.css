@@ -47,8 +47,14 @@ body{
 
 #site-title a{
 	font-family:"aSongForJennifer";
-	font-size:65px;
+	font-size:90px;
 	font-weight: normal;
+}
+.menu{
+	margin: 0 7.6%;
+	margin: 0 auto;
+	text-align: left;
+	width: 500px;
 }
 
 #site-description {
