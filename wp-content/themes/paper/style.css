@@ -12,6 +12,7 @@ Version: 1.0
 @import url("../twentyeleven/style.css");
 @import url("fonts/sketchrockwell/font.css"); /*font-family:"SketchRockwellRegular"*/
 @import url("fonts/handsean/font.css");/*font-family:"HandOfSeanRegular"*/
+@import url("fonts/jennifer/font.css");/*font-family:"aSongForJennifer"*/
 
 clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 h1{font-size:25px}h2{font-size:23px}h3,.entry-content h3{font-size:21px; text-transform:none; letter-spacing:0;}h4{font-size:19px}h5{font-size:17px}h6{font-size:15px}
@@ -45,7 +46,7 @@ body{
 }
 
 #site-title a{
-	font-family:"SketchRockwellRegular";
+	font-family:"aSongForJennifer";
 	font-size:65px;
 }
 
@@ -112,7 +113,7 @@ input#s{
 .entry-metax span, .format-gallery .entry-meta time span, .singular .entry-header .entry-meta time span{
 	display:block;
 	text-align:center;
-	font-family:"SketchRockwellRegular"
+	font-family:"aSongForJennifer"
 }
 
 .entry-metax span.tanggal, .format-gallery .entry-meta time span.tanggal, .singular .entry-header .entry-meta time span.tanggal{
