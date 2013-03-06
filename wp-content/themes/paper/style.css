@@ -48,6 +48,7 @@ body{
 #site-title a{
 	font-family:"aSongForJennifer";
 	font-size:65px;
+	font-weight: normal;
 }
 
 #site-description {
