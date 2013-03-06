@@ -80,7 +80,10 @@ body {
 	margin: 0 7.6%;
 }
 #access div {
-	margin: 0 7.6%;
+	/*margin: 0 7.6%;*/
+	margin: 0 auto;
+	text-align: left;
+	width: 465px;
 }
 #primary {
 	float: left;
