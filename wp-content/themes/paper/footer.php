@@ -28,8 +28,8 @@
                 </div><!-- #site-info -->
     
                 <div id="site-generator">
-                    <?php do_action( 'twentyeleven_credits' ); ?>
-                    <a href="http://wordpress.org">WordPress</a> &nbsp; <a class="wpcharity" href="http://wpcharity.com">WPCharity</a>
+                  <!--  <?php do_action( 'twentyeleven_credits' ); ?> -->
+                  <!--  <a href="http://wordpress.org">WordPress</a> &nbsp; <a class="wpcharity" href="http://wpcharity.com">WPCharity</a> -->
                 </div><!-- #site-generator -->
            </div>
 	</footer><!-- #colophon -->
