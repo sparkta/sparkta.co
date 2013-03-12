@@ -383,6 +383,7 @@ article.intro, .featured-posts, .page-template-showcase-php section.recent-posts
 }
 #site-generator a:hover{background: url("images/wordpress.png") no-repeat scroll left center transparent; color:#0088CC}
 #site-generator a.wpcharity{background: url("images/wpcharity.png") no-repeat left center;}
+#site-generator a.banner{background: url("images/banner.png") no-repeat left center;}
 
 .singular #author-info{
 	margin: 20px 0;
