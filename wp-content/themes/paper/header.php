@@ -70,7 +70,7 @@
 
 <body <?php body_class(); ?>>
 	<A HREF="www.yoursite.com/yourpage.html" class="banner" onMouseOver="window.status='TEXT IN STATUS BAR'; return true">
-	<IMG SRC="images/banner.png" BORDER="0" WIDTH="1580" HEIGHT="210" ALT="Come to my page!"></A>
+	<IMG SRC="wp-content/themes/paper/images/banner.png" BORDER="0" WIDTH="1580" HEIGHT="210" ALT="Come to my page!"></A>
 	<?php get_search_form(); ?>
 <div id="page" class="hfeed">
 	<hgroup>
