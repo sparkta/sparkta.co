@@ -389,3 +389,10 @@ article.intro, .featured-posts, .page-template-showcase-php section.recent-posts
 	margin: 20px 0;
 	padding: 15px;
 }
+
+a.banner {
+border: 0;
+display:scroll;
+position:fixed;
+top:0px; left:0px
+}	
