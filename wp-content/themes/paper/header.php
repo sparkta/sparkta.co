@@ -70,7 +70,7 @@
 
 <body <?php body_class(); ?>>
 	<A HREF="#" class="banner" onMouseOver="window.status='TEXT IN STATUS BAR'; return true">
-	<IMG SRC="http://sparktaco.herokuapp.com/wp-content/themes/paper/images/bannerc.png" BORDER="0" WIDTH="1580" HEIGHT="210"></A>
+	<IMG SRC="http://sparktaco.herokuapp.com/wp-content/themes/paper/images/banner.png" BORDER="0" WIDTH="1580" HEIGHT="210"></A>
 	<?php get_search_form(); ?>
 <div id="page" class="hfeed">
 	<hgroup>
