@@ -70,7 +70,7 @@
 
 <body <?php body_class(); ?>>
 	<A HREF="www.yoursite.com/yourpage.html" class="banner" onMouseOver="window.status='TEXT IN STATUS BAR'; return true">
-		<a class="banner" href="#"></a>
+	<IMG SRC="banner.png" BORDER="0" WIDTH="468" HEIGHT="60" ALT="Come to my page!"></A>
 	<?php get_search_form(); ?>
 <div id="page" class="hfeed">
 	<hgroup>
