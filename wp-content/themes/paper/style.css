@@ -35,6 +35,7 @@ body{
 
 #branding {
 	border:none;
+	top: 100px;
 }
 
 #page hgroup{
