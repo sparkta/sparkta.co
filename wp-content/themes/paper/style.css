@@ -28,6 +28,10 @@ body{
 	font-family: Georgia,"Nimbus Roman No9 L",serif;
 }
 
+.banner {
+text-align: center; 
+}
+
 #page{
 	background:none;
 	margin-top:0;
