@@ -83,7 +83,7 @@ body {
 	/*margin: 0 7.6%;*/
 	margin: 0 auto;
 	text-align: left;
-	width: 590px;
+	width: 500px;
 }
 #primary {
 	float: left;
@@ -700,7 +700,7 @@ a:hover {
 
 #main {
 	clear: both;
-	padding: 1.625em 0 0;
+	padding: 4em 0 0;
 }
 .page-title {
 	color: #666;
