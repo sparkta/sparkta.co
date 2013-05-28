@@ -1,0 +1,53 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+html {
+	background-image: url('/images/paper.jpg');
+}
+
+@font-face {
+	font-family: handsean;
+	src: url('/assets/handsean-webfont.ttf');
+}
+
+body>header {
+	background-image: url('/images/bannerc.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	height: 150px;
+}
+
+body>nav {
+	background-color: #d21f2c;
+	background: url('/images/noise.png?1369509453'),-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edc980), color-stop(100%, #d21f2c));
+	background: url('/images/noise.png?1369509453'),-webkit-linear-gradient(#edc980,#d21f2c);
+	background: url('/images/noise.png?1369509453'),-moz-linear-gradient(#edc980,#d21f2c);
+	background: url('/images/noise.png?1369509453'),-o-linear-gradient(#edc980,#d21f2c);
+	background: url('/images/noise.png?1369509453'),linear-gradient(#edc980,#d21f2c);
+}
+
+body>nav a {
+	font-color: #ffffff;
+	font-family: handsean;
+	font-size: 1.5em;
+	text-shadow: 0 0;
+}
+
+body>nav a:visited {
+	color: #ffffff;
+}
+
+body>footer {
+	color: #ffffff;
+	background: #d21f2c;
+	text-shadow: 0 0;
+}
+
+body #content>article, body #content>div>article, body #content>div>section, #main, #content, .sidebar {
+	background-color: transparent;
+}
+
+body>nav li+li a{
+	border-left: 1px solid #ffffff;
+}
