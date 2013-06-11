@@ -38,9 +38,50 @@ body>nav a:visited {
 	color: #ffffff;
 }
 
+div#front-sections > section {
+	width: 300px;
+	float: left;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 5%;
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+div#front-sections > section > header{
+	background-color: #d21f2c;
+	color: #ffffff;
+	font-family: handsean;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+div#front-sections > section > article{
+	height: 2.5em;
+	padding: 180px 10px 10px;
+}
+
+div#front-sections > section > article > p{
+	display: table-cell;
+	vertical-align: botom;
+}
+
+div#front-sections > section > footer{
+	border-top-style: dashed;
+	border-top-width: thin;
+	padding: 10px;
+}
+
 body>footer {
 	color: #ffffff;
-	background: #d21f2c;
+	background-color: #d21f2c;
+	background: url('/images/noise.png?1369509453'),-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d21f2c), color-stop(100%, #edc980));
+	background: url('/images/noise.png?1369509453'),-webkit-linear-gradient(#d21f2c,#edc980);
+	background: url('/images/noise.png?1369509453'),-moz-linear-gradient(#d21f2c,#edc980);
+	background: url('/images/noise.png?1369509453'),-o-linear-gradient(#d21f2c,#edc980);
+	background: url('/images/noise.png?1369509453'),linear-gradient(#d21f2c,#edc980);
 	text-shadow: 0 0;
 }
 
@@ -50,4 +91,31 @@ body #content>article, body #content>div>article, body #content>div>section, #ma
 
 body>nav li+li a{
 	border-left: 1px solid #ffffff;
+}
+
+div#front-sections > section > article{
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+article#coaching {
+	background-image: url('/images/training.jpg');
+}
+
+article#consultoria {
+	background-image: url('/images/training.jpg');
+}
+
+article#entrenamiento {
+	background-image: url('/images/training.jpg');
+}
+
+div#banner {
+	height: 300px;
+	background-image: url('/images/banner.jpg');
+	background-repeat: no-repeat;
+}
+
+#content>div {
+	padding-top: 0px;
 }

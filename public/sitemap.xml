@@ -1,15 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/robots.txt</loc>
+        <loc>http://sparkta.co/entrenamiento/</loc>
+        <lastmod>2013-06-10T18:52:12-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sparkta.co/consultoria/</loc>
+        <lastmod>2013-06-10T18:51:55-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sparkta.co/robots.txt</loc>
         <lastmod>2013-05-25T14:17:33-05:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
+        <loc>http://sparkta.co/blog/archives/</loc>
         <lastmod>2013-05-25T14:17:33-05:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
+        <loc>http://sparkta.co/blog/</loc>
         <lastmod>2013-05-25T14:17:33-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sparkta.co/quienes-somos/</loc>
+        <lastmod>2013-06-10T18:52:30-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sparkta.co/</loc>
+        <lastmod>2013-06-10T18:53:51-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sparkta.co/coaching/</loc>
+        <lastmod>2013-06-10T18:51:33-05:00</lastmod>
     </url>
 </urlset>
