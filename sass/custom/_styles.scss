@@ -1,21 +1,98 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-html {
-	background-image: url('/images/paper.jpg');
-}
-
 @font-face {
 	font-family: handsean;
 	src: url('/assets/handsean-webfont.ttf');
 }
 
+@font-face {
+	font-family: jennifer;
+	src: url('/assets/aSongForJennifer.ttf');
+}
+
 body>header {
-	background-image: url('/images/bannerc.png');
+	background-image: url('/images/logo-sparkta.png');
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: left top;
 	background-color: transparent;
-	height: 150px;
+	height: 100px;
+}
+
+body>header>hgroup {
+	float: left;
+}
+
+body>header>hgroup>h1 {
+	font-family: jennifer;
+	font-size: 3em;
+	margin-left: 200px;
+}
+
+body>header>hgroup>h2 {
+	font-family: handsean;
+	font-size: 1em;
+	margin-left: 200px;
+	
+}
+
+section#social-buttons-search {
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+section#social-buttons-search ul{
+	width: 180px;
+}
+
+section#social-buttons-search ul li{
+	list-style-image: none;
+	list-style-type: none;
+	margin-left: 0;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	padding-left: 10px;
+	padding-right: 0;
+	padding-top: .3em;
+}
+
+section#search-form{
+	margin-top: 58px;
+}
+
+section#search-form form {
+	width: 100px;
+	text-align: left;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	padding-top: 0px;
+	float:left;
+	margin-top: 0px;
+}
+
+section#search-form form .search {
+	padding: .3em .5em 0;
+	font-size: .65em;
+	font-family: "PT Sans","Helvetica Neue",Arial,sans-serif;
+	line-height: 1.1em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-box-shadow: #d1d1d1 0 1px;
+	-moz-box-shadow: #d1d1d1 0 1px;
+	box-shadow: #d1d1d1 0 1px;
+	background-color: #f2f2f2;
+	border: 1px solid #b3b3b3;
+	color: #888;
 }
 
 body>nav {
