@@ -214,4 +214,31 @@ div#banner {
 	padding: 25px;
 }
 
+#team section.team-member p {
+	font-size: 0.8em;
+}
 
+#team section.team-member h2 {
+	font-size: 0.8em;
+}
+
+#team section.team-member h1 {
+	margin-bottom: 0px;
+}
+
+#team section.team-member {
+	width: 45%;
+	float: left;
+	padding: 10px;
+	height: 400px;
+}
+
+#team section.team-member div.profile{
+	width: 250px;
+	float: left;
+}
+
+#team section.team-member div.resume{
+	width: 250px;
+	float: right;
+}
