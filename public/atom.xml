@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Sparkta.co]]></title>
+  <link href="http://sparkta.co/atom.xml" rel="self"/>
+  <link href="http://sparkta.co/"/>
+  <updated>2013-06-16T18:08:27-05:00</updated>
+  <id>http://sparkta.co/</id>
+  <author>
+    <name><![CDATA[Sparkta Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

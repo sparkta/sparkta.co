@@ -1,0 +1,244 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+@font-face {
+	font-family: handsean;
+	src: url('/assets/handsean-webfont.ttf');
+}
+
+@font-face {
+	font-family: jennifer;
+	src: url('/assets/aSongForJennifer.ttf');
+}
+
+body>header {
+	background-image: url('/images/logo-sparkta.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: transparent;
+	height: 110px;
+}
+
+body>header>hgroup {
+	float: left;
+}
+
+body>header>hgroup>h1 {
+	font-family: jennifer;
+	font-size: 3em;
+	margin-left: 200px;
+}
+
+body>header>hgroup>h2 {
+	font-family: handsean;
+	font-size: 1em;
+	margin-left: 200px;
+	
+}
+
+section#social-buttons-search {
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+section#social-buttons-search ul{
+	width: 180px;
+}
+
+section#social-buttons-search ul li{
+	list-style-image: none;
+	list-style-type: none;
+	margin-left: 0;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	padding-left: 10px;
+	padding-right: 0;
+	padding-top: .3em;
+}
+
+section#search-form{
+	margin-top: 58px;
+}
+
+section#search-form form {
+	width: 100px;
+	text-align: left;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	padding-top: 0px;
+	float:left;
+	margin-top: 0px;
+}
+
+section#search-form form .search {
+	padding: .3em .5em 0;
+	font-size: .65em;
+	font-family: "PT Sans","Helvetica Neue",Arial,sans-serif;
+	line-height: 1.1em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-box-shadow: #d1d1d1 0 1px;
+	-moz-box-shadow: #d1d1d1 0 1px;
+	box-shadow: #d1d1d1 0 1px;
+	background-color: #f2f2f2;
+	border: 1px solid #b3b3b3;
+	color: #888;
+}
+
+body>nav {
+	background: #800a0a;
+	-moz-border-radius-topleft: 0.4em;
+	-webkit-border-top-left-radius: 0.4em;
+	border-top-left-radius: 0.4em;
+	-moz-border-radius-topright: 0.4em;
+	-webkit-border-top-right-radius: 0.4em;
+	border-top-right-radius: 0.4em;
+	border-top: 0px;
+}
+
+body>nav a {
+	font-color: #ffffff;
+	font-family: handsean;
+	font-size: 1.5em;
+	text-shadow: 0 0;
+}
+
+body>nav a:visited {
+	color: #ffffff;
+}
+
+div#front-sections > section {
+	width: 350px;
+	float: left;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+div#front-sections > section > header{
+	background: #800a0a;
+	color: #ffffff;
+	font-family: handsean;
+	font-size: 1.5em;
+	padding: 10px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+div#front-sections > section > article{
+	height: 200px;
+	padding: 180px 20px 0px 20px;
+}
+
+div#front-sections > section > article > p{
+	display: table-cell;
+	vertical-align: botom;
+}
+
+div#front-sections > section > footer{
+	border-top-style: dashed;
+	border-top-width: thin;
+	padding: 10px;
+}
+
+body>footer {
+	color: #ffffff;
+	background: #800a0a;
+	text-shadow: 0 0;
+	border-top: 0px;
+}
+
+body #content>article, body #content>div>article, body #content>div>section, #main, #content, .sidebar {
+	background-color: transparent;
+}
+
+body>nav li+li a{
+	border-left: 1px solid #ffffff;
+}
+
+div#front-sections > section > article{
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+article#coaching {
+	background-image: url('/images/coaching.jpg');
+}
+
+article#consultoria {
+	background-image: url('/images/consultoria.jpg');
+}
+
+article#entrenamiento {
+	background-image: url('/images/training.jpg');
+}
+
+div#banner {
+	height: 300px;
+	background-image: url('/images/banner.jpg');
+	background-repeat: no-repeat;
+}
+
+#content>div {
+	padding-top: 0px;
+}
+
+#content {
+	background-color: #ffffff;
+}
+
+#content h1 {
+	font-family: handsean;
+	letter-spacing: 6px;
+}
+
+.no-sidebar #content {
+	padding: 25px;
+}
+
+#team section.team-member p {
+	font-size: 0.8em;
+}
+
+#team section.team-member h2 {
+	font-size: 0.8em;
+}
+
+#team section.team-member h1 {
+	margin-bottom: 0px;
+}
+
+#team section.team-member {
+	width: 45%;
+	float: left;
+	padding: 10px;
+	height: 400px;
+}
+
+#team section.team-member div.profile{
+	width: 250px;
+	float: left;
+}
+
+#team section.team-member div.resume{
+	width: 250px;
+	float: right;
+}
