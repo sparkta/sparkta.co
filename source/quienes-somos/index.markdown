@@ -21,12 +21,7 @@ oníricos.</p>
 	<hgroup><h1>Andrés Herrera<h1><h2>Ingeniero de Sistemas, CSD/CCNA/ISTQB</h2></hgroup>
 	</div>
 	<div class="resume">
-	<p>Durante los últimos años se ha dedicado al mundo ágil, actualmente
-promoviendo SCRUM a nuevos equipos y realizando coaching en proyectos
-para el mercado colombiano. Miembro activo de la comunidad de Agiles
-Colombia, speaker y colaborador de eventos sobre métodos ágiles. Ha hecho
-parte de los últimos eventos de la comunidad Ágiles Colombia, facilitando
-charlas en algunas universidades y difundiendo el agilísimo por todo el país.</p>
+	<p>Durante los últimos años se ha dedicado al mundo ágil, actualmente promoviendo SCRUM a nuevos equipos y realizando coaching en proyectos para el mercado colombiano. Miembro activo de la comunidad de Ágiles Colombia, speaker y colaborador de eventos sobre métodos ágiles, facilitando charlas en algunas universidades y difundiendo el agilísimo por todo el país.</p>
 	</div>
 </section>
 <section class="team-member">
@@ -38,7 +33,7 @@ charlas en algunas universidades y difundiendo el agilísimo por todo el país.<
 	<p>Ha impartido diferentes cursos de capacitación sobre adopción de métodos
 ágiles y ha logrado la implementación exitosa de diversos métodos ágiles en
 diferentes organizaciones incluyendo una del estado Colombiano.
-Es miembro Fundador de la comunidad ágil de Colombia y ha servido como
+Es miembro Co-Fundador de la comunidad ágil de Colombia y ha servido como
 facilitador y Speaker en diferentes eventos sobre métodos agiles en el país.</p>
 	</div>
 </section>
