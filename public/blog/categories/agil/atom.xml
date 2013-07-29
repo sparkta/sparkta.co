@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Sparkta.co]]></title>
-  <link href="http://sparkta.co/atom.xml" rel="self"/>
+  <title><![CDATA[Category: agil | Sparkta.co]]></title>
+  <link href="http://sparkta.co/blog/categories/agil/atom.xml" rel="self"/>
   <link href="http://sparkta.co/"/>
   <updated>2013-07-29T11:00:01-05:00</updated>
   <id>http://sparkta.co/</id>
@@ -28,13 +28,13 @@
 
 <p>la charla fluyo bastante bien para las personas que estuvieron en el lugar, y con el ejercicio del viaje a alaska, ajustado netamente a un entorno latinoamericano, las personas pudieron aterrizar todos los conceptos sobre planeación que estábamos discutiendo, ademas de la diversión que supone planear un viaje de sorpresa a donde tu novia, que parece gozar de recursos ilimitados moviéndose por todo el continente.</p>
 
-<p><img src="http://sparkta.co/images/2013-07-18%2019.58.01.jpg" alt="buenos aires and rio road trip" />
-<img src="http://sparkta.co/images/2013-07-18%2019.46.20.jpg" alt="buenos aires and rio road trip" /></p>
+<p><img src="/images/2013-07-18%2019.58.01.jpg" alt="buenos aires and rio road trip" />
+<img src="/images/2013-07-18%2019.46.20.jpg" alt="buenos aires and rio road trip" /></p>
 
 <p>luego del ejercicio discutimos sobre los diferentes tipos de estimación que podemos emplear y cual podría adaptarse mejor, lastimosamente no alcanzamos a realizar el ejercicio de <a href="http://agilecomplexificationinverter.blogspot.com/2010/11/dog-grooming-exercise.html">estimación de perros</a> por cuestiones de tiempo, aun que al final eran pasadas las 9pm y la gente seguía muy contenta y realizando preguntas activamente&hellip;</p>
 
-<p><img src="http://sparkta.co/images/2013-07-18%2019.29.17.jpg" alt="buenos aires and rio road trip" />
-<img src="http://sparkta.co/images/2013-07-18%2019.29.24.jpg" alt="buenos aires and rio road trip" /></p>
+<p><img src="/images/2013-07-18%2019.29.17.jpg" alt="buenos aires and rio road trip" />
+<img src="/images/2013-07-18%2019.29.24.jpg" alt="buenos aires and rio road trip" /></p>
 
 <p>fue una jornada bastante enriquecedora y estimulante para los asistentes, como no lo dejan ver en los <a href="http://www.meetup.com/AgilesColombia/events/128872562/">comentarios</a> posteriores al taller, sin embargo hay un par de cosas para mejorar, la primera la gestión del tiempo (muy corto, para tantos temas y debates), y la segunda la experiencia de las personas del hangout. es bastante difícil estar pendiente de las dos partes, ademas que por el hangout se pierde toda la experiencia de los ejercicios. quizas la mejor forma de solucionarlo sea repetir el ejercicio de manera online únicamente para estar prestando atención a todas las personas conectadas 100%.</p>
 
